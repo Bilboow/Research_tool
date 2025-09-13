@@ -21,6 +21,7 @@ Built with Streamlit for an interactive UI.
 
 ## ⚙️ Installation & Run
 
+```bash
 1.Clone the repo (or copy the code):
   git clone <your-repo-link>
   cd Research_tool
@@ -38,7 +39,7 @@ Built with Streamlit for an interactive UI.
 
 5.Run the Streamlit app:
   streamlit run main.py
-
+```
 
 ## 🖼️ Screenshot:
 
