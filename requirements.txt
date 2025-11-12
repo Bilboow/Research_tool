@@ -1,11 +1,25 @@
+# Core framework
 streamlit
 python-dotenv
-langchain
-langchain-groq
-langchain-community
-langchain-huggingface
-langchain-chroma
+pandas
+
+# LangChain ecosystem (compatible with your imports)
+langchain==0.3.7
+langchain-core==0.3.12
+langchain-community==0.3.7
+langchain-huggingface==0.1.2
+langchain-groq==0.1.3
+langchain-chroma==0.1.2
+
+# Vector store + embeddings
+chromadb==0.5.11
+sentence-transformers==3.0.1
+
+# Web data loading and parsing
 unstructured
-sentence-transformers
-chromadb
-uvicorn
+unstructured[html]
+tiktoken
+requests
+
+# Optional utilities (for text splitting / performance)
+numpy
