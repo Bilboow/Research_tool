@@ -6,6 +6,7 @@ langchain-core>=0.2.20
 langchain-groq
 langchain-huggingface
 langchain-chroma
+langchain-text-splitters
 unstructured
 sentence-transformers
 chromadb>=0.5.5
